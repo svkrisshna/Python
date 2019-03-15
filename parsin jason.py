@@ -1,9 +1,5 @@
 import json
 json = json.loads(open('D:/requirements', 'r').read())
-#value = json['ip']
-#print(value)
-
-
 
 # print the keys and values
 for key in json:
@@ -13,7 +9,6 @@ for key in json:
     f.write(str(value))
     f.write("\n")
     f.close()
-
 
 import os
 import subprocess
