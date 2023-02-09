@@ -2,7 +2,7 @@ import json
 
 #please change the path in the below line to the path where you saved the json(requirements) file.
 
-json = json.loads(open('D:/requirements', 'r').read())
+json = json.loads(open('requirements', 'r').read())
 
 # print the keys and values
 for key in json:
